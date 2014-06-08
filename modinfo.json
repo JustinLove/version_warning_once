@@ -1,0 +1,23 @@
+{
+  "author": "wondible",
+  "build": "67099-main",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/06/08",
+  "description": "Only warn about new game versions once, because it ALWAYS comes up in PTE.",
+  "display_name": "Version Warning Once",
+  "enabled": true,
+  "forum": null,
+  "id": "version_warning_once",
+  "identifier": "com.wondible.pa.version_warning_once",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "start": [
+      "coui://ui/mods/version_warning_once/version_warning_once.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "1.0.0"
+}
+
